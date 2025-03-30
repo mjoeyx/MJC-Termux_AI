@@ -48,7 +48,7 @@ curl -sL [https://is.gd/Termux_Ai](https://raw.githubusercontent.com/mjoeyx/MJC-
 
 ## 🔄 Updating
 ```bash
-pkg upgrade termux-ai
+pkg upgrade mjc-termux-ai
 ```
 
 ## 👤 Developer
