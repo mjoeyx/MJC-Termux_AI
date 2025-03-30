@@ -22,34 +22,34 @@ echo -e "${BLUE}│${NC}${GREEN}   MJC-Termux AI Assistant Installer  ${BLUE}│
 echo -e "${BLUE}╰──────────────────────────────────────╯${NC}"
 
 # Update packages
-echo -e "${YELLOW}[*] Updating packages...${NC}"
+echo -e "${YELLOW}[*] Memperbarui paket...${NC}"
 apt update -y && apt upgrade -y
 
 # Install dependencies
-echo -e "${YELLOW}[*] Installing dependencies...${NC}"
+echo -e "${YELLOW}[*] Menginstall dependencies...${NC}"
 apt install -y curl jq bc
 
 # Download the script directly
-echo -e "${YELLOW}[*] Downloading MJC-Termux AI Assistant...${NC}"
+echo -e "${YELLOW}[*] Mengunduh MJC-Termux AI Assistant...${NC}"
 curl -s -Lo $PREFIX/bin/termux-ai \
     https://github.com/Anon4You/Termux-Ai/raw/main/termux-ai.sh
 
 # Make script executable
-echo -e "${YELLOW}[*] Setting permissions...${NC}"
+echo -e "${YELLOW}[*] Mengatur permissions...${NC}"
 chmod +x $PREFIX/bin/termux-ai
 
 # Create config directory
-echo -e "${YELLOW}[*] Creating config directory...${NC}"
+echo -e "${YELLOW}[*] Membuat directory config...${NC}"
 mkdir -p ~/.config/termux_assistant
 
-echo -e "${GREEN}[✓] Installation complete!${NC}"
-echo -e "\nRun the AI Assistant with: ${BLUE}termux-ai${NC}"
+echo -e "${GREEN}[✓] Installasi Selesai!${NC}"
+echo -e "\nJalankan AI Assistant dengan: ${BLUE}mjc-termux-ai${NC}"
 
 # First run instructions
-echo -e "\n${YELLOW}To configure your API key:${NC}"
-echo -e "1. Run ${BLUE}termux-ai${NC}"
-echo -e "2. Go to Settings (Option 2)"
-echo -e "3. Select 'API Key' (Option 1)"
-echo -e "4. Enter your OpenRouter API key\n"
+echo -e "\n${YELLOW}Konfigurasikan API key Anda:${NC}"
+echo -e "1. Run ${BLUE}mjc-termux-ai${NC}"
+echo -e "2. Ke Pengaturan (Option 2)"
+echo -e "3. Pilih 'API Key' (Option 1)"
+echo -e "4. Masukan OpenRouter API key Anda\n"
 
 exit 0
