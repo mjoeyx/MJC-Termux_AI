@@ -1,6 +1,6 @@
 #!/data/data/com.termux/files/usr/bin/bash
 
-# Termux AI Assistant
+# MJC-Termux AI Assistant
 # Dev: Mjoeyx
 # GitHub: GitHub.com/mjoeyx
 # Version: 1.1
@@ -21,7 +21,7 @@ CONFIG_DIR="$HOME/.config/termux_assistant"
 HISTORY_FILE="$CONFIG_DIR/history"
 CONFIG_FILE="$CONFIG_DIR/config"
 API_KEY_FILE="$CONFIG_DIR/api_key"
-VERSION="1.7"
+VERSION="1.1"
 
 # Available Free Models
 declare -A FREE_MODELS=(
