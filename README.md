@@ -23,7 +23,7 @@ pkg install termux-ai
 
 ### Direct Install (One-Command)
 ```bash
-curl -sL https://raw.githubusercontent.com/mjoeyx/MJC-Termux_AI/main/install.sh) | bash
+curl -sSL https://raw.githubusercontent.com/mjoeyx/MJC-Termux_AI/main/install.sh | bash
 ```
 
 > **Note**: Instalasi Repositori Mengaktifkan Pembaruan Otomatis Melalui `pkg upgrade`
