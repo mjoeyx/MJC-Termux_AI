@@ -1,9 +1,9 @@
 #!/data/data/com.termux/files/usr/bin/bash
 
 # Termux AI Assistant
-# Author: Alienkrishn
-# GitHub: GitHub.com/Anon4You
-# Version: 1.7
+# Devr: Mjoeyx
+# GitHub: GitHub.com/mjoeyx
+# Version: 1.1
 
 # ANSI Color Codes
 RED='\033[1;31m'
