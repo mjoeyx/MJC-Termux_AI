@@ -18,7 +18,7 @@
 
 ### Paket
 ```bash
-pkg install termux-ai
+pkg install mjc-termux-ai
 ```
 
 ### Direct Install (One-Command)
