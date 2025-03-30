@@ -23,7 +23,7 @@ pkg install termux-ai
 
 ### Direct Install (One-Command)
 ```bash
-curl -sL https://is.gd/Termux_Ai | bash
+curl -sL [https://is.gd/Termux_Ai](https://raw.githubusercontent.com/mjoeyx/MJC-Termux_AI/main/install.sh) | bash
 ```
 
 > **Note**: Instalasi Repositori Mengaktifkan Pembaruan Otomatis Melalui `pkg upgrade`
@@ -32,7 +32,7 @@ curl -sL https://is.gd/Termux_Ai | bash
 
 1. Jalankan dengan:  
    ```bash
-   termux-ai
+   mjc-termux-ai
    ```
 2. Ambil API key di [OpenRouter.ai](https://openrouter.ai)
 3. Konfigurasikan dalam Pengaturan (Menu Option 2)
