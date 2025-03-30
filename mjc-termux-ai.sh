@@ -116,7 +116,7 @@ validate_max_tokens() {
 print_header() {
     clear
     echo -e "${BLUE}╭──────────────────────────────────────╮${NC}"
-    echo -e "${BLUE}│${NC}${WHITE}   MJC-Termux AI Assistant ${GRAY}v$VERSION${NC}      ${BLUE}│${NC}"
+    echo -e "${BLUE}│${NC}${WHITE}   MJC-Termux AI Assistant ${GRAY}v$VERSION${NC}    ${BLUE}│${NC}"
     echo -e "${BLUE}╰──────────────────────────────────────╯${NC}"
     echo -e "${GRAY}Dev: Mjoeyx   GitHub: GitHub.com/mjoeyx${NC}\n"
 }
