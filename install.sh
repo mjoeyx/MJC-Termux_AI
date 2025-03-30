@@ -18,7 +18,7 @@ if [ ! -d "$PREFIX/bin" ]; then
 fi
 
 echo -e "${BLUE}╭──────────────────────────────────────╮${NC}"
-echo -e "${BLUE}│${NC}${GREEN}   MJC-Termux AI Assistant Installer  ${BLUE}│${NC}"
+echo -e "${BLUE}│${NC}${GREEN}   MJC-Termux AI Assistant Installer ${BLUE}│${NC}"
 echo -e "${BLUE}╰──────────────────────────────────────╯${NC}"
 
 # Update packages
